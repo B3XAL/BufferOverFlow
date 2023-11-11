@@ -5,7 +5,7 @@ import sys
 
 # Verificar la cantidad de argumentos proporcionados al script
 if len(sys.argv) != 1:  
-    print("\n[!] Uso: ./exploit.py \n")
+    print("\n[!] Uso: ./offset.py \n")
     exit(1)
 
 # Definir la dirección IP y el puerto del servicio objetivo
